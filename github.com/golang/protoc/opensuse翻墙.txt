@@ -1,0 +1,30 @@
+去http://software.opensuse.org/下载Shadowsocks-Qt5客户端
+然后启动客户端
+加入代理
+{
+    "server": "139.59.221.180",
+    "local_address": "127.0.0.1",
+    "local_port": 1080,
+    "timeout": 300,
+    "workers": 1,
+    "server_port": 2375,
+    "password": "0sn5Ry",
+    "method": "chacha20",
+    "obfs": "http_simple",
+    "obfs_param": "baidu.com",
+    "protocol": "auth_sha1_v4",
+    "protocol_param": ""
+}
+然后启动firefox(firefox需要更新，同样去software.opensuse.org下更新)
+下载FoxyProxy Standard插件
+新增代理，代理模式选择socks5
+ip选择127.0.0.1
+port选择1080
+代理选择use proxy shock for all url
+
+火狐代理设置，选择use system proxy setting
+
+
+https://anythink.info/user/node
+邮箱zhq568405944@gmail.com
+密码zhq86176265
